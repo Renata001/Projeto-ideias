@@ -1,0 +1,64 @@
+.text-white{
+    color:white;
+}
+.text-center{
+    width:100%;
+    text-align: center!important;
+}
+.ideia-foto{
+    width: 100% !important;
+    height: 280px;
+}
+.dark-bgg{
+    padding: 1px !important;
+}
+.rodape{
+    height: 10vh !important;
+}
+
+.content-block-title{
+    display: flex!important;
+    justify-content: space-around!important;
+}
+
+/* teste */
+.item-media.color_A {
+    background: #ffcc00;
+    border-radius: 50%;
+    width:2.5rem;
+    height:auto;
+}
+.color_A span{
+    text-align: center!important;
+    width: 100% !important;
+    font-weight: 700!important;
+    color: #f9f9f9;
+   text-transform: uppercase!important;
+}
+.small{
+    font-size: 0.8rem;
+}
+
+.text-white{
+    color: #ffffff;
+}
+
+.item-media.color_B{
+    background: #900!important;
+}
+.color{
+    color: #900!important;
+    background: rgba(153,0,0,0.12);
+}
+
+.bg-black{
+    background-color: #121212!important;
+}
+.text-t{
+    padding-left: 15px;
+    
+}
+.title.menu{
+    width: 100%;
+    text-align: center!important;   /*centralizando o menu*/
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>Meu primeiro App</title>
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg">
+
+    <div id="app">
+      <div class="panel panel-left">
+        <div class="block ">
+       
+         
+          <div class="item-title"><i class="f7-icons padding-right">gear_alt_fill</i><strong >Informações do aplicativo</strong>  </div>
+              <div class="list accordion-list">
+                <ul>
+       
+                  <li class="accordion-item"><a href="#" class="item-content item-link">
+                      <div class="item-inner">
+                        <div class="item-title">Contato</div>
+                      </div></a>
+                    <div class="accordion-item-content">
+                      <div class="block">
+                        <div> <i class="f7-icons padding-right">envelope_fill</i><strong>Email:</strong> reh.emanuele@gmail.com
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="item-content">
+                        <div class="item-inner">
+                            <div class="item-title"> Escuro</div>
+                                <div class="item-after">
+                                    <label  class="toggle">
+                                        <input type="checkbox" name="switch" value="yes" class="btn-noturno">
+                                        <i class="toggle-icon"></i>
+                                    </label>
+                                </div>
+                        </div>
+                    </div>
+
+                    </li>
+                    <li>
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title">Tarefas atrasadas</div>
+                                <div class="item-after">
+                                    <span class="excluir"><i class="f7-icons">trash</i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                
+                </ul>
+               
+              </div>
+            
+            
+        </div>
+        <!-- botãogit remote add origin https://github.com/Renata001/Ideias.git do mini-menu
+          <div class="fab fab-right-bottom">
+          
+          <a class="bg-color-yellow text-color-black " href="index.html" data-transition="f7-cover"><i class="f7-icons ">arrow_right_circle_fill</i></a>
+      </div> -->
+    </div>
+
+        <div class="view view-main">
+            <div data-name="home" class="page">
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-bg "></div>
+                    <div class="navbar-inner bg-color-yellow">
+                        <div class="left">
+                            <a href="#" data-panel=".panel-left" class="panel-open bg">
+                                <icon class="f7-icons text-color-black padding">menu</icon>
+                            </a>
+                        </div>
+                        <div class=" right  padding login" >
+                          <a href="/login/" data-transition="f7-cover"><img src="img/login.png" alt="" srcset=""></a>
+                        </div>
+
+                     
+                          <a href="/home/" class="link back right padding text-color-black" id="sairIndex"  >                   
+                            <strong> Sair</strong>            
+                           </a>
+                         
+                    </div>
+                </div>
+                <!-- FIM NAVBAR -->
+
+                <!-- Inicio conteudo da página Index -->
+                <div class="page-content">
+
+                     <!-- Acesso concedido para usuario sem conta -->
+                        <div class="banner">
+                          <div class=" padding-bottom">
+                            <img src="img/002.jpeg" alt="ideia" class="ideia-foto" >
+                            <br>
+                            <br>
+                              <h2 class="text-center text-color-yellow">Sobre o aplicativo</h2>
+                                <p class="text-align-justify padding ">
+                                    Minhas ídeias é um aplicativo que te oferece o melhor ambiente para o seus processos criativos,
+                                    seguro proporciona as ferramentas essenciais como organização,  bloco para anotações importantes , agendamentos e armazenamentos dados. 
+                                    <br>
+                                    Um ambiente feito para atender as necessidades de qualquer projeto.
+                                </p>
+                              
+                            </div>
+                        </div>  <!-- Fim desse acesso banner -->
+                      
+
+                        <!-- Acesso concedido para o usuário  -->
+                        
+                        <div class="inicio"  type="hidden" >
+                          <div class="banner2"> <img src="img/ideiasb.png" alt="ideia" class="ideia-foto" ></div>
+
+                          <div class="block test">
+                            <div class="content-block-title info-top">
+                                Lista dos projetos
+                                <span class="item-left small data-atual  "> Data</span>
+                            </div>
+                                
+                        </div> 
+                        
+                      <div class="list padding" id="tarefas">
+                       
+                          <ul id="list">
+      
+                          </ul>
+                          
+                          <div class="text-center padding-top "> <a href="/projet/" data-transition="f7-parallax"><img src="img/mais02.png" alt="" srcset=""></a></div>
+                      </div>
+                               
+                            
+                          </div>
+                        <!-- Fim desse acesso -->
+                <!-- FIM página Index -->
+            </div>
+        </div>
+    </div>
+
+    <!-- area javascript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/framework7.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
